@@ -1,0 +1,20 @@
+/* style.css */
+.menu-button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.menu-button:hover {
+    -fx-background-color: #1976D2;
+}
+
+.menu-button:pressed {
+    -fx-background-color: #1565C0;
+}
+
+.menu-button:hover:pressed {
+    -fx-background-color: #0D47A1;
+}
